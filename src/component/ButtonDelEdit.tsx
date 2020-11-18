@@ -11,6 +11,7 @@ const ButtonDelEdit: React.FC<Props> = (Props) => {
     <div className="cell">
       <button onClick={() => dispatch(delList(Props.index))}>Delete</button>
       <button onClick={() => dispatch(editList(Props.index))}>Edit</button>
+      <button onClick={() => dispatch(editList(Props.index))}>Edit</button>
     </div>
   );
 }
